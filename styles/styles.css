@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+    background-image: url(../assets/bgtexture.jpg);
+}
