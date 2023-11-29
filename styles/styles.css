@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 body{
-    background-image: url(../assets/bgtexture.jpg);
+    background: url("../assets/bgtexture.jpg");
+}
+/* Navbar */
+.navbar{
+    background-image: url("../assets/bgtexture.jpg");
+}
+
+/* Hero Section */
+.heroImg{
+    background: url("../assets/homeHero.jpg");
+    height: 30rem;
 }
