@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('../fonts/Montauk-Regular.otf');
 
 body{
     background: url("../assets/bgtexture.jpg");
+}
+.montauk{
+    font-family: 'Montauk-Regular';
+}
+.fugaz{
+    font-family: 'Fugaz One';
 }
 /* Navbar */
 .navbar{
@@ -12,4 +19,64 @@ body{
 .heroImg{
     background: url("../assets/homeHero.jpg");
     height: 30rem;
+}
+/* main content */
+.sandwich{
+    padding: 0;
+}
+.content{
+    margin-top: 4rem;
+}
+.landingSingleImg{
+    width: 100%;
+}
+.card{
+    
+    background-color: white;
+    border-radius: 0;
+    border: none;
+    color: #5F002B;
+    padding-left: 0;
+    padding-right: 0;
+}
+.landingTripleImg{
+    width: 100%;
+    border-radius: 0;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 2rem;
+    color: #5F002B;
+    
+}
+
+.copyright{
+    text-align: end;
+}
+.company{
+    width: 30%; 
+}
+.company2{
+    width: 40%; 
+}
+.phoneNumber{
+    display: flex;
+    align-items: flex-end;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.footerP{
+    margin: 0;
+}
+.footerP2{
+    margin: 2px;
 }
