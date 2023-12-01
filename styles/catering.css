@@ -1,0 +1,18 @@
+.back {
+    background-image: url(../assets/bgtexture.jpg);
+    background-repeat: repeat; 
+}
+
+.hero {
+    font-size: 4rem;
+    background-color: white;
+    border: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .font1 {
+    font-family: FugazOne-Regular;
+    font-size: 50px;
+    color: #5F002B;
+}
