@@ -14,6 +14,21 @@ body{
 .navbar{
     background-image: url("../assets/bgtexture.jpg");
 }
+.navMain{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.collapsedBox{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-link{
+    color: #5F002B;
+}
 
 /* Hero Section */
 .heroImg{
@@ -22,13 +37,14 @@ body{
 }
 /* main content */
 .sandwich{
-    padding: 0;
+    padding-right: 1rem;
 }
 .content{
     margin-top: 4rem;
 }
 .landingSingleImg{
     width: 100%;
+    height: 100%
 }
 .card{
     
@@ -38,6 +54,7 @@ body{
     color: #5F002B;
     padding-left: 0;
     padding-right: 0;
+    
 }
 .landingTripleImg{
     width: 100%;
@@ -51,12 +68,14 @@ footer{
     color: #5F002B;
     
 }
-
+.footContent{
+    margin: 2rem;
+}
 .copyright{
     text-align: end;
 }
 .company{
-    width: 30%; 
+    width: 15%; 
 }
 .company2{
     width: 40%; 
