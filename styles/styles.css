@@ -21,11 +21,9 @@ body{
 .collapse{
     display: flex;
     justify-content: flex-end;
+    text-align: right;
 }
-.collapsedBox{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .nav-link{
     color: #5F002B;
 }
