@@ -1,0 +1,97 @@
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-image: repeat;
+  }
+  
+  .responsive {
+    width: 485px;
+    height: 485px;
+    margin-left: -1.5%;
+    padding-left: 4%;
+  
+  }
+  
+  .col-md-3 {
+    width: 792px;
+    height: 485px;
+    background-color: #ffffff;
+    margin-left: -12%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .col-md-3 {
+        width: 100%;
+    }
+  }
+  
+  @font-face {
+    font-family: 'FugazOne';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+  
+  }
+  
+  .page-title {
+    color: #5F002B;
+    font-size: 40px;
+    font-family: 'FugazOne', sans-serif;
+    padding-left: 2%;
+  }
+  
+  @font-face {
+    font-family: 'Montauk-Regular';
+    src: url('/fonts/Montauk-Regular.otf') format('truetype');
+  
+  }
+  
+  .page-body {
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk-Regular', sans-serif;
+    padding-left: 2%;
+  
+  }
+  
+  .space {
+    background-image: url("/images/bgtexture.jpg;");
+    height: 40px;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 70px;
+    background-color: #f8f8f8;
+    
+  }
+  
+  .team-text {
+    color: #5F002B;
+    font-size: 25px;
+    font-family: 'FugazOne', sans-serif;
+    padding-top: 1.3%;
+  }
+  
+  .card {
+    margin-top: -4%;
+    margin-bottom: 40px;
+    justify-content:center;
+  
+  }
+  
+  .card-img-top{
+    height:100%;
+    max-width: fit-content;
+  }
+  
+  .card-title{
+    font-family:'FugaZone', sans-serif;
+    color: #5F002B;
+    size:30px;
+  }
+  
+  .card-text{
+    font-family: 'Montauk-Regular';
+    color: #5F002B;
+    size:20px;
+  
+  }
