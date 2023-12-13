@@ -34,11 +34,41 @@ body{
     background-color: white;
 }
 
+/* menu Entrees */
+.card-img-top{
+    border-radius: 0;
+}
+.allText{
+    padding: 1rem;
+    color:#5F002B;
+}
+.card{
+    border-radius: 0;
+    padding: 0;
+    width: 39.5rem;
+    margin: .5rem;
+}
+.titles{
+    font-size: x-large;
+    margin-bottom: 0;
+}
+.pricing{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+hr{
+
+    color:#980051;
+    border-top:#980051 solid 5px;
+}
 /* Footer */
 
 footer{
     margin-top: 2rem;
     color: #5F002B;
+    margin-bottom: 2rem;
     
 }
 .footContent{
