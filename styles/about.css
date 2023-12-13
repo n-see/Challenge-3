@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 body{
   background-image: url('/assets/bgtexture.jpg');
 }
@@ -26,6 +28,9 @@ body{
     color: #5F002B;
 }
 
+.fugaz{
+  font-family: 'Fugaz One';
+}
   
   .responsive {
     width: 76%;
