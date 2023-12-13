@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('../fonts/Montauk-Regular.otf');
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+
 
 body{
     background: url("../assets/bgtexture.jpg");
@@ -32,12 +36,27 @@ body{
 .ourMenu{
     color:#5F002B;
     background-color: white;
+    margin-bottom: 2rem;
 }
 
 /* menu Entrees */
+.sandwich{
+    margin-bottom: 1rem;
+}
+.seafood{
+    margin-bottom: 1rem;
+}
+.grill{
+    margin-bottom: 1rem;
+}
+.desserts{
+    margin-bottom: 1rem;
+}
+
 .card-img-top{
     border-radius: 0;
 }
+
 .allText{
     padding: 1rem;
     color:#5F002B;
@@ -45,8 +64,8 @@ body{
 .card{
     border-radius: 0;
     padding: 0;
-    width: 39.5rem;
-    margin: .5rem;
+    height: 100%;
+
 }
 .titles{
     font-size: x-large;
@@ -56,6 +75,13 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    font-family: Montauk-Regular;
+}
+p{
+    font-family: Montauk-Regular;
+}
+sub{
+    font-family: Montauk-Regular;
 }
 
 hr{
