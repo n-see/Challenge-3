@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('../fonts/Montauk-Regular.otf');
-
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
 body{
     background: url("../assets/bgtexture.jpg");
 }
