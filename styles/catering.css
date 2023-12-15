@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('../fonts/Montauk-Regular.otf');
+/* body{
+    background: url("../assets/bgtexture.jpg");
+} */
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+
+.montauk{
+    font-family: Montauk-Regular;
+}
+
+.fugaz{
+    font-family: 'Fugaz One';
+}
+
+
+
+
+.back {
+    background-image: url(../assets/bgtexture.jpg);
+    background-repeat: repeat; 
+}
+
+.hero {
+    font-size: 4rem;
+    background-color: white;
+    border: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .font1 {
+    font-family: 'Fugaz One';
+    font-size: 50px;
+    color: #5F002B;
+}
+
+
+
+footer{
+    margin-top: 2rem;
+    color: #5F002B;
+}
+.copyright{
+    text-align: end;
+}
+.company{
+    width: 30%;
+}
+.company2{
+    width: 40%;
+}
+.phoneNumber{
+    display: flex;
+    align-items: flex-end;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.footerP{
+    margin: 0;
+}
+.footerP2{
+    margin: 2px;
+}
+
+
+.white {
+    background-color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+
+/* .pad1{
+    padding-right: 8rem;
+    background-color: white;
+    padding-left: 8rem;
+    padding-top: 8rem;
+} */
+
+
+.font1 {
+  
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.font2{
+    
+    font-size: 20px;
+    color: #5F002B;
+    
+}
+
+.col-sm-6 {
+    width: 62%;
+
+    margin-left: -12%;
+}
+
+.pFont{
+    color: #5F002B;
+    font-size: 11.5px;
+}
+
+
+.imgR{
+   height: 95.5%;
+}
+
+
+.midCen{
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+
+.navbar{
+    background-image: url("../assets/bgtexture.jpg");
+}
+.navMain{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+.nav-link{
+    color: #5F002B;
+}
+
+
+.pMargin{
+    margin-top: 4rem;
+}
+
+
+.catering{
+    margin-bottom: 2rem;
+}
+
+.heroImgBanner{
+    margin-bottom: 2rem;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.card-img-top{
+    border-radius: 0;
+}
+
+
+.footContent{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
