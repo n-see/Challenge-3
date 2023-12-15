@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@font-face{
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+
+
+body{
+    background: url("../assets/bgtexture.jpg");
+}
+.montauk{
+    font-family: Montauk-Regular;
+}
+.fugaz{
+    font-family: 'Fugaz One';
+}
+/* Navbar */
+.navbar{
+    background-image: url("../assets/bgtexture.jpg");
+}
+.navMain{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.nav-link{
+    color: #5F002B;
+}
+/* main */
+.photo{
+    background-color: white;
+    margin-bottom: 2rem;
+}
+.col-12{
+    margin-bottom: 1.5rem;
+}
+.title{
+    color:#5F002B;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.pictures{
+    width: 100%;
+    border: 10px solid white;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 2rem;
+    color: #5F002B;
+    margin-bottom: 2rem;
+    
+}
+.footContent{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.copyright{
+    text-align: end;
+}
+.company{
+    width: 15%; 
+}
+.company2{
+    width: 40%; 
+}
+.phoneNumber{
+    display: flex;
+    align-items: flex-end;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.footerP{
+    margin: 0;
+}
+.footerP2{
+    margin: 2px;
+}
