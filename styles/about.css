@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+  background-image: url('/assets/bgtexture.jpg');
+}
+
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-image: repeat;
+  }
+
+  .navbar{
+    background-image: url("../assets/bgtexture.jpg");
+}
+.navMain{
+    display: flex;
+    justify-content: center;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.nav-link{
+    color: #5F002B;
+}
+
+.fugaz{
+  font-family: 'Fugaz One';
+}
+  
+  .responsive {
+    width: 76%;
+    margin-left: -1.5%;
+    padding-left: 4%;
+  
+  }
+  
+  .col-md-3 {
+    width: 60%;
+    background-color: #ffffff;
+    margin-left: -12%;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+  
+  @font-face {
+    font-family: 'FugazOne';
+    src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+  
+  }
+  
+  .page-title {
+    color: #5F002B;
+    font-size: 40px;
+    font-family: 'FugazOne', sans-serif;
+    padding-left: 2%;
+  }
+  
+  @font-face {
+    font-family: 'Montauk-Regular';
+    src: url('/fonts/Montauk-Regular.otf') format('truetype');
+  
+  }
+  
+  .page-body {
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk-Regular', sans-serif;
+    padding-left: 2%;
+  
+  }
+  
+  .space {
+    background-image: url("/images/bgtexture.jpg;");
+    height: 40px;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 70px;
+    background-color: #f8f8f8;
+    
+  }
+  
+  .team-text {
+    color: #5F002B;
+    font-size: 25px;
+    font-family: 'FugazOne', sans-serif;
+    padding-top: 1.3%;
+  }
+  
+  .card {
+    margin-top: -4%;
+    margin-bottom: 40px;
+    justify-content:center;
+  
+  }
+  
+  .card-img-top{
+    height:100%;
+    max-width: fit-content;
+  }
+  
+  .card-title{
+    font-family:'FugaZone', sans-serif;
+    color: #5F002B;
+    size:30px;
+  }
+  
+  .card-text{
+    font-family: 'Montauk-Regular';
+    color: #5F002B;
+    size:20px;
+  
+  }
+
+  footer{
+    margin-top: 2rem;
+    color: #5F002B;
+    margin-bottom: 2rem;
+}
+.footContent{
+    margin: 2rem;
+}
+.copyright{
+    text-align: end;
+}
+.company{
+    width: 15%; 
+}
+.company2{
+    width: 40%; 
+}
+.phoneNumber{
+    display: flex;
+    align-items: flex-end;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.footerP{
+    margin: 0;
+}
+.footerP2{
+    margin: 2px;
+}
