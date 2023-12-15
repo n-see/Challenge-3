@@ -7,6 +7,11 @@
     font-family: Montauk-Regular;
     src: url(../fonts/Montauk-Regular.otf);
 }
+
+.montauk{
+    font-family: Montauk-Regular;
+}
+
 .fugaz{
     font-family: 'Fugaz One';
 }
@@ -91,6 +96,7 @@ footer{
 }
 
 .font2{
+    
     font-size: 20px;
     color: #5F002B;
     
@@ -103,6 +109,7 @@ footer{
 }
 
 .pFont{
+    color: #5F002B;
     font-size: 11.5px;
 }
 
@@ -143,6 +150,18 @@ footer{
 }
 
 
-.pCat{
-    margin-top: -12%;
+.catering{
+    margin-bottom: 2rem;
+}
+
+.heroImgBanner{
+    margin-bottom: 2rem;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.card-img-top{
+    border-radius: 0;
 }
