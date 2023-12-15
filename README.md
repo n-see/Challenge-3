@@ -8,5 +8,6 @@ This is a group project, so you will submit a 1 page peer review for each of you
 
 Your Project must be fully responsive and each member of the team must submit the entire project.
 
-Peer Reviewed by:
-Peer Review Comment:
+Peer Reviewed by: Julius
+
+Peer Review Comment: Neo, Sam, and Alicia did a great job. All pages are responsive and look good. Liked the choice of getting rid of the banner picture on the index page to make it look better. Some fonts are smaller on bigger screens, but look fine on normal screen sizes. Overall very high quality website with the best responsiveness on all pages.
