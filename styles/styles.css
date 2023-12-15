@@ -47,7 +47,6 @@ body{
     height: 100%
 }
 .card{
-    
     background-color: white;
     border-radius: 0;
     border: none;
@@ -69,7 +68,8 @@ footer{
     margin-bottom: 2rem;
 }
 .footContent{
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .copyright{
     text-align: end;

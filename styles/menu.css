@@ -8,10 +8,10 @@
 body{
     background: url("../assets/bgtexture.jpg");
 }
-.montauk{
-    font-family: 'Montauk-Regular';
+
+.fugaz{.montauk{
+    font-family: Montauk-Regular;
 }
-.fugaz{
     font-family: 'Fugaz One';
 }
 /* Navbar */
@@ -68,14 +68,17 @@ body{
 
 }
 .titles{
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 0;
 }
 .pricing{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     font-family: Montauk-Regular;
+}
+.pFontSize{
+    font-size: medium;
 }
 p{
     font-family: Montauk-Regular;
@@ -98,7 +101,8 @@ footer{
     
 }
 .footContent{
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .copyright{
     text-align: end;
